@@ -16,7 +16,7 @@ $small-breakpoint: 960px;
 }
 
 .rich-formatting {
-  font-family: $font-sans-serif, sans-serif;
+  font-family: $font-sans-serif, sans-serif, $font-nasin-nanpa;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.7;
@@ -71,7 +71,7 @@ $small-breakpoint: 960px;
   h4,
   h5,
   h6 {
-    font-family: $font-display, sans-serif;
+    font-family: $font-display, sans-serif, $font-nasin-nanpa;
     margin-top: 1.275em;
     margin-bottom: 0.85em;
     font-weight: 500;
@@ -210,7 +210,7 @@ $small-breakpoint: 960px;
 
   &__section {
     flex: 1 0 0;
-    font-family: $font-sans-serif, sans-serif;
+    font-family: $font-sans-serif, sans-serif, $font-nasin-nanpa;
     font-size: 16px;
     line-height: 28px;
     color: $primary-text-color;
@@ -229,7 +229,7 @@ $small-breakpoint: 960px;
     }
 
     strong {
-      font-family: $font-display, sans-serif;
+      font-family: $font-display, sans-serif, $font-nasin-nanpa;
       font-weight: 500;
       font-size: 32px;
       line-height: 48px;
@@ -252,7 +252,7 @@ $small-breakpoint: 960px;
     bottom: -40px;
 
     .panel-header {
-      font-family: $font-display, sans-serif;
+      font-family: $font-display, sans-serif, $font-nasin-nanpa;
       font-size: 14px;
       line-height: 24px;
       font-weight: 500;
@@ -319,7 +319,7 @@ $small-breakpoint: 960px;
 .landing-page {
   p,
   li {
-    font-family: $font-sans-serif, sans-serif;
+    font-family: $font-sans-serif, sans-serif, $font-nasin-nanpa;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
@@ -345,7 +345,7 @@ $small-breakpoint: 960px;
   }
 
   h1 {
-    font-family: $font-display, sans-serif;
+    font-family: $font-display, sans-serif, $font-nasin-nanpa;
     font-size: 26px;
     line-height: 30px;
     font-weight: 500;
@@ -353,7 +353,7 @@ $small-breakpoint: 960px;
     color: $secondary-text-color;
 
     small {
-      font-family: $font-sans-serif, sans-serif;
+      font-family: $font-sans-serif, sans-serif, $font-nasin-nanpa;
       display: block;
       font-size: 18px;
       font-weight: 400;
@@ -362,7 +362,7 @@ $small-breakpoint: 960px;
   }
 
   h2 {
-    font-family: $font-display, sans-serif;
+    font-family: $font-display, sans-serif, $font-nasin-nanpa;
     font-size: 22px;
     line-height: 26px;
     font-weight: 500;
@@ -371,7 +371,7 @@ $small-breakpoint: 960px;
   }
 
   h3 {
-    font-family: $font-display, sans-serif;
+    font-family: $font-display, sans-serif, $font-nasin-nanpa;
     font-size: 18px;
     line-height: 24px;
     font-weight: 500;
@@ -380,7 +380,7 @@ $small-breakpoint: 960px;
   }
 
   h4 {
-    font-family: $font-display, sans-serif;
+    font-family: $font-display, sans-serif, $font-nasin-nanpa;
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
@@ -389,7 +389,7 @@ $small-breakpoint: 960px;
   }
 
   h5 {
-    font-family: $font-display, sans-serif;
+    font-family: $font-display, sans-serif, $font-nasin-nanpa;
     font-size: 14px;
     line-height: 24px;
     font-weight: 500;
@@ -398,7 +398,7 @@ $small-breakpoint: 960px;
   }
 
   h6 {
-    font-family: $font-display, sans-serif;
+    font-family: $font-display, sans-serif, $font-nasin-nanpa;
     font-size: 12px;
     line-height: 24px;
     font-weight: 500;
@@ -754,7 +754,7 @@ $small-breakpoint: 960px;
       width: 50%;
 
       strong {
-        font-family: $font-display, sans-serif;
+        font-family: $font-display, sans-serif, $font-nasin-nanpa;
         font-size: 15px;
         font-weight: 700;
         display: block;

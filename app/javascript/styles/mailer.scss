@@ -176,10 +176,10 @@ body {
 .column-cell,
 .column-cell td,
 p {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif, $font-nasin-nanpa;
 
   @media only screen {
-    font-family: $font-sans-serif, sans-serif !important;
+    font-family: $font-sans-serif, sans-serif, $font-nasin-nanpa !important;
   }
 }
 

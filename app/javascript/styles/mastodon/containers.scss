@@ -34,7 +34,7 @@
       outline: 0;
       padding: 12px 16px;
       line-height: 32px;
-      font-family: $font-display, sans-serif;
+      font-family: $font-display, sans-serif, $font-nasin-nanpa;
       font-weight: 500;
       font-size: 14px;
     }
@@ -701,7 +701,7 @@
             font-size: 18px;
             margin-bottom: 5px;
             color: $primary-text-color;
-            font-family: $font-display, sans-serif;
+            font-family: $font-display, sans-serif, $font-nasin-nanpa;
           }
         }
 

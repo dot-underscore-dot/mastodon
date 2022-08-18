@@ -192,6 +192,7 @@ module LanguagesHelper
     kab: ['Kabyle', 'Taqbaylit'].freeze,
     kmr: ['Kurmanji (Kurdish)', 'Kurmancî'].freeze,
     zgh: ['Standard Moroccan Tamazight', 'ⵜⴰⵎⴰⵣⵉⵖⵜ'].freeze,
+    tok: ['Toki Pona', '󱥬󱦖󱥔'].freeze,
   }.freeze
 
   SUPPORTED_LOCALES = {}.merge(ISO_639_1).merge(ISO_639_3).freeze

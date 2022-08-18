@@ -1,7 +1,7 @@
 $no-columns-breakpoint: 600px;
 
 code {
-  font-family: $font-monospace, monospace;
+  font-family: $font-monospace, monospace, $font-nasin-nanpa;
   font-weight: 400;
 }
 
@@ -665,7 +665,7 @@ code {
     width: 100%;
     border: 0;
     padding: 10px;
-    font-family: $font-monospace, monospace;
+    font-family: $font-monospace, monospace, $font-nasin-nanpa;
     background: $ui-base-color;
     color: $primary-text-color;
     font-size: 14px;
@@ -973,7 +973,7 @@ code {
 .form_admin_settings_custom_css,
 .form_admin_settings_closed_registrations_message {
   textarea {
-    font-family: $font-monospace, monospace;
+    font-family: $font-monospace, monospace, $font-nasin-nanpa;
   }
 }
 
@@ -997,7 +997,7 @@ code {
     border: 0;
     padding: 10px;
     font-size: 14px;
-    font-family: $font-monospace, monospace;
+    font-family: $font-monospace, monospace, $font-nasin-nanpa;
   }
 
   button {
