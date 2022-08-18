@@ -1,4 +1,8 @@
-#  Mastodon Glitch Edition  #
+#  Mastodon Squish Edition  #
+
+A fork of glitch-soc used at [fluffcord.social](https://fluffcord.social/). Original description follows.
+
+---
 
 >   Now with automated deploys!
 
