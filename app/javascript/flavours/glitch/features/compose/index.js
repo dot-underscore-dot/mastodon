@@ -1,6 +1,7 @@
 import React from 'react';
 import ComposeFormContainer from './containers/compose_form_container';
 import NavigationContainer from './containers/navigation_container';
+import Mascot from 'flavours/glitch/components/mascot';
 import PropTypes from 'prop-types';
 import ImmutablePropTypes from 'react-immutable-proptypes';
 import { connect } from 'react-redux';
@@ -91,9 +92,12 @@ class Compose extends React.PureComponent {
 
             <ComposeFormContainer />
 
-            <div className='drawer__inner__mastodon'>
-              {mascot ? <img alt='' draggable='false' src={mascot} /> : <button className='mastodon' onClick={onClickElefriend} />}
-            </div>
+            {mascot ?
+              <Mascot mascot={mascot} outerClassName='drawer__inner__mastodon' /> :
+              <div className='drawer__inner__mastodon'>
+                <button className='mastodon' onClick={onClickElefriend} />
+              </div>
+            }
           </div>}
 
           <Motion defaultStyle={{ x: isSearchPage ? 0 : -100 }} style={{ x: spring(showSearch || isSearchPage ? 0 : -100, { stiffness: 210, damping: 20 }) }}>

@@ -1,5 +1,10 @@
 const createAudio = sources => {
   const audio = new Audio();
+  if ('preservesPitch' in audio) {
+    audio.preservesPitch = false;
+  } else if ('mozPreservesPitch' in audio) {
+    audio.mozPreservesPitch = false;
+  }
   sources.forEach(({ type, src }) => {
     const source = document.createElement('source');
     source.type = type;
@@ -18,7 +23,7 @@ const play = audio => {
       audio.currentTime = 0;
     }
   }
-
+  audio.playbackRate = (Math.random() * 0.25) + 0.875;
   audio.play();
 };
 
@@ -31,6 +36,16 @@ export default function soundsMiddleware() {
       },
       {
         src: '/sounds/boop.mp3',
+        type: 'audio/mpeg',
+      },
+    ]),
+    squeak: createAudio([
+      {
+        src: '/sounds/squeak.ogg',
+        type: 'audio/ogg',
+      },
+      {
+        src: '/sounds/squeak.mp3',
         type: 'audio/mpeg',
       },
     ]),

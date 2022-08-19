@@ -9,6 +9,7 @@ import { defineMessages, injectIntl, FormattedMessage, FormattedDate } from 'rea
 import { autoPlayGif, reduceMotion, disableSwiping } from 'flavours/glitch/util/initial_state';
 import elephantUIPlane from 'mastodon/../images/elephant_ui_plane.svg';
 import { mascot } from 'flavours/glitch/util/initial_state';
+import Mascot from 'flavours/glitch/components/mascot';
 import unicodeMapping from 'flavours/glitch/util/emoji/emoji_unicode_mapping_light';
 import classNames from 'classnames';
 import EmojiPickerDropdown from 'flavours/glitch/features/emoji_picker';
@@ -417,7 +418,8 @@ class Announcements extends ImmutablePureComponent {
 
     return (
       <div className='announcements'>
-        <img className='announcements__mastodon' alt='' draggable='false' src={mascot || elephantUIPlane} />
+        <Mascot className='announcements__mastodon' mascot={mascot || elephantUIPlane} />
+        {/* <img className='announcements__mastodon' alt='' draggable='false' src={mascot || elephantUIPlane} /> */}
 
         <div className='announcements__container'>
           <ReactSwipeableViews animateHeight={!reduceMotion} adjustHeight={reduceMotion} index={index} onChangeIndex={this.handleChangeIndex}>

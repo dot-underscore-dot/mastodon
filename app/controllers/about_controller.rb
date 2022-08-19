@@ -18,6 +18,7 @@ class AboutController < ApplicationController
   def show; end
 
   def more
+	use_pack 'about_more'
     flash.now[:notice] = I18n.t('about.instance_actor_flash') if params[:instance_actor]
 
     toc_generator = TOCGenerator.new(@instance_presenter.site_extended_description)

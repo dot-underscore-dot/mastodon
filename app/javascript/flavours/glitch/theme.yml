@@ -1,6 +1,7 @@
 #  (REQUIRED) The location of the pack files.
 pack:
   about: packs/about.js
+  about_more: packs/about_more.js
   admin:
     - packs/admin.js
     - packs/public.js
